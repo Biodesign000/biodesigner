@@ -2325,11 +2325,6 @@ body {
 .cid-rBkNQVrMLn .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBkNQVrMLn .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBkNQVrMLn .collapsed button.navbar-toggler {
   display: block;
 }
@@ -2841,11 +2836,6 @@ body {
 .cid-rBkNQVrMLn .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBkNQVrMLn .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBkNQVrMLn .collapsed button.navbar-toggler {
   display: block;
 }
@@ -3277,11 +3267,6 @@ body {
 .cid-rBkNQVrMLn .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBkNQVrMLn .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBkNQVrMLn .collapsed button.navbar-toggler {
   display: block;
 }
@@ -3684,11 +3669,6 @@ body {
 .cid-rBkNQVrMLn .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBkNQVrMLn .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBkNQVrMLn .collapsed button.navbar-toggler {
   display: block;
 }
@@ -4090,11 +4070,6 @@ body {
 .cid-rBkNQVrMLn .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBkNQVrMLn .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBkNQVrMLn .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBkNQVrMLn .collapsed button.navbar-toggler {
   display: block;
@@ -4498,11 +4473,6 @@ body {
 .cid-rBl0kJcli1 .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBl0kJcli1 .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBl0kJcli1 .collapsed button.navbar-toggler {
   display: block;
 }
@@ -4904,11 +4874,6 @@ body {
 .cid-rBl0mLDxmB .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBl0mLDxmB .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBl0mLDxmB .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBl0mLDxmB .collapsed button.navbar-toggler {
   display: block;
@@ -5312,11 +5277,6 @@ body {
 .cid-rBl0oe2gJz .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBl0oe2gJz .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBl0oe2gJz .collapsed button.navbar-toggler {
   display: block;
 }
@@ -5718,11 +5678,6 @@ body {
 .cid-rBl0p8JeIl .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBl0p8JeIl .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBl0p8JeIl .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBl0p8JeIl .collapsed button.navbar-toggler {
   display: block;
@@ -6126,11 +6081,6 @@ body {
 .cid-rBl0su5Z9w .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBl0su5Z9w .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBl0su5Z9w .collapsed button.navbar-toggler {
   display: block;
 }
@@ -6532,11 +6482,6 @@ body {
 .cid-rBl0ucFVnI .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBl0ucFVnI .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBl0ucFVnI .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBl0ucFVnI .collapsed button.navbar-toggler {
   display: block;
@@ -6940,11 +6885,6 @@ body {
 .cid-rBl0vYsIhN .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBl0vYsIhN .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBl0vYsIhN .collapsed button.navbar-toggler {
   display: block;
 }
@@ -7346,11 +7286,6 @@ body {
 .cid-rBl0xmf1J5 .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBl0xmf1J5 .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBl0xmf1J5 .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBl0xmf1J5 .collapsed button.navbar-toggler {
   display: block;
@@ -7754,11 +7689,6 @@ body {
 .cid-rBl0zszIMM .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBl0zszIMM .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBl0zszIMM .collapsed button.navbar-toggler {
   display: block;
 }
@@ -8160,11 +8090,6 @@ body {
 .cid-rBl0B840Id .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBl0B840Id .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBl0B840Id .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBl0B840Id .collapsed button.navbar-toggler {
   display: block;
@@ -8568,11 +8493,6 @@ body {
 .cid-rBl0CIp7q3 .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
-@media (min-width: 1024px) {
-  .cid-rBl0CIp7q3 .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
-}
 .cid-rBl0CIp7q3 .collapsed button.navbar-toggler {
   display: block;
 }
@@ -8974,11 +8894,6 @@ body {
 .cid-rBl4YHUfoA .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rBl4YHUfoA .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
-}
-@media (min-width: 1024px) {
-  .cid-rBl4YHUfoA .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
-  }
 }
 .cid-rBl4YHUfoA .collapsed button.navbar-toggler {
   display: block;
