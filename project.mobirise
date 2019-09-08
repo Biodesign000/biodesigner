@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Biodesign11",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -36,7 +36,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.8",
     "siteFonts": [],
-    "uniqCompNum": 9,
+    "uniqCompNum": 8,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/download-128x90.png",
@@ -647,10 +647,10 @@
               {
                 "tags": "Patofisiología",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201987-107352019-8-6-10-37-24.jpg",
-                "playVideo": true,
+                "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=hHQLqldEOVQ",
-                "image": "@PROJECT_PATH@/assets/images/heart-rate-symbol-4-492x328.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/heart-rate-symbol-4-492x328-314x176.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/cmo-es-un-ritmo-cardiaco-normal-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/cmo-es-un-ritmo-cardiaco-normal-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -662,26 +662,26 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background1-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/cmo-es-un-ritmo-cardiaco-normal-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/cmo-es-un-ritmo-cardiaco-normal-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
+                "caption": "Ritmo cardiaco normal",
                 "active": false
               },
               {
                 "tags": "Patofisiología",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/heart-rate-symbol-2-492x328.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/heart-rate-symbol-2-492x328-393x221.jpeg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201987-107352019-8-6-10-37-24.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=hHQLqldEOVQ",
+                "image": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
+                "caption": "Fundación Española del corazón",
+                "active": true
               },
               {
                 "tags": "Síntomas",
@@ -694,15 +694,15 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Sociedad Peruana del Corazón",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Síntomas",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background6.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background6-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -751,10 +751,10 @@
               {
                 "tags": "Causas",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
+                "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background6.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background6-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2647,6 +2647,7 @@
           "_name": "gallery4",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"1\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rBr65NJLe3",
+          "_anchor": "gallery4-8",
           "_protectedParams": [
             "gallery"
           ],
@@ -2720,8 +2721,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery4-8"
+          }
         },
         {
           "alias": false,
