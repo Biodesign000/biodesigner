@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Biodesign11",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -649,8 +649,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201987-107352019-8-6-10-37-24.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=hHQLqldEOVQ",
-                "image": "@PROJECT_PATH@/assets/images/cmo-es-un-ritmo-cardiaco-normal-2-1920x1080.png",
-                "thumb": "@PROJECT_PATH@/assets/images/cmo-es-un-ritmo-cardiaco-normal-2-1920x1080-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/tipos-frecuencia-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/tipos-frecuencia-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -681,7 +681,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Fundación Española del corazón",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Síntomas",
@@ -766,12 +766,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background7.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background7-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/tipos-origen-3-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/tipos-origen-3-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
+                "caption": "Por su origen",
                 "active": false
               },
               {
@@ -779,12 +779,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background8.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background8-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/tipos-frecuencia-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/tipos-frecuencia-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
+                "caption": "Por su frecuencia",
                 "active": false
               },
               {
@@ -805,26 +805,13 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background5.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background5-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/tipos-presentacin-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/tipos-presentacin-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "Tipos",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background7.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background7-800x450.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Causas",
