@@ -649,8 +649,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201987-107352019-8-6-10-37-24.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=hHQLqldEOVQ",
-                "image": "@PROJECT_PATH@/assets/images/tipos-frecuencia-1920x1080.png",
-                "thumb": "@PROJECT_PATH@/assets/images/tipos-frecuencia-1920x1080-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/fisiopatologa-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/fisiopatologa-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -701,12 +701,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080.png",
-                "thumb": "@PROJECT_PATH@/assets/images/diseo-sin-ttulo-2-1920x1080-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/sntomas-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sntomas-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
+                "caption": "Síntomas principales",
                 "active": false
               },
               {
@@ -762,7 +762,7 @@
                 "active": false
               },
               {
-                "tags": "Tipos",
+                "tags": "Tipos de Arritmia",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -775,7 +775,7 @@
                 "active": false
               },
               {
-                "tags": "Tipos",
+                "tags": "Tipos de Arritmia",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -785,23 +785,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Por su frecuencia",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Síntomas",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/heart-rate-symbol-492x328.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/heart-rate-symbol-492x328-492x328.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "Tipos",
+                "tags": "Tipos de Arritmia",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -810,8 +797,8 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": true
+                "caption": "Por su presentación",
+                "active": false
               },
               {
                 "tags": "Causas",
@@ -820,19 +807,6 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/heart-rate-symbol-1-492x328.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/heart-rate-symbol-1-492x328-393x221.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "Síntomas",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background1.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background1-800x450.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
