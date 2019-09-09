@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Biodesign11",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -649,8 +649,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201987-107352019-8-6-10-37-24.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=hHQLqldEOVQ",
-                "image": "@PROJECT_PATH@/assets/images/fisiopatologa-1920x1080.png",
-                "thumb": "@PROJECT_PATH@/assets/images/fisiopatologa-1920x1080-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/complicaciones-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/complicaciones-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -714,12 +714,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/background4.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/background4-800x450.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/complicaciones-1920x1080.png",
+                "thumb": "@PROJECT_PATH@/assets/images/complicaciones-1920x1080-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
+                "caption": "Complicaciones",
                 "active": false
               },
               {
