@@ -4459,6 +4459,89 @@ body {
 .cid-rBYvVP9ZRg blockquote {
   color: #767676;
 }
+.cid-rBYxiRrop0 {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: #ffffff;
+}
+.cid-rBYxiRrop0 .media-container-row {
+  margin: 0 auto;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+}
+.cid-rBYxiRrop0 .media-container-row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+.cid-rBYxiRrop0 .media-container-row .img-item img {
+  width: 100%;
+  min-height: 1px;
+}
+.cid-rBYxiRrop0 .media-container-row .img-item .img-caption {
+  background: #efefef;
+  z-index: 2;
+  padding: 1rem 1rem;
+  word-break: break-word;
+}
+.cid-rBYxiRrop0 .media-container-row .img-item .img-caption p {
+  margin-bottom: 0;
+}
+.cid-rBYxiRrop0 .media-container-row .img-item.item1 {
+  padding: 0 2rem 0 0;
+}
+@media (max-width: 992px) {
+  .cid-rBYxiRrop0 .img-item {
+    width: 100% !important;
+  }
+  .cid-rBYxiRrop0 .img-item.item1 {
+    width: 100%;
+    flex-basis: initial !important;
+    padding: 0 0 2rem 0 !important;
+    -webkit-flex-basis: initial !important;
+  }
+}
+.cid-rBYz2AX8YO {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rBYz2AX8YO .counter-container {
+  color: #767676;
+}
+.cid-rBYz2AX8YO .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rBYz2AX8YO .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rBYz2AX8YO .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rBYz2AX8YO .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 .cid-rBkNQVrMLn .navbar {
   padding: .5rem 0;
   background: #333333;
