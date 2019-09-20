@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Biodesign11",
-    "currentPage": "page4.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -36,7 +36,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.8",
     "siteFonts": [],
-    "uniqCompNum": 14,
+    "uniqCompNum": 24,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/download-128x90.png",
@@ -2030,7 +2030,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"35\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2019-09-06-at-12.42.01-pm-512x1280.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"56\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2019-09-06-at-12.42.01-pm-512x1280.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rBXGyZD2Mg",
           "_anchor": "image2-8",
           "_protectedParams": [],
@@ -2128,7 +2128,7 @@
             }
           },
           "_name": "features11",
-          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"55\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/epide-352x352.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Aspecto Social</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">La muerte súbita cardiaca (MSC) junto con la arritmia son un problema global significativo para la salud pública, ya que representan entre 4 y 5 millones de muertes a anuales a nivel mundial <a href=\"https://oxfordmedicine.com/view/10.1093/med/9780198784906.001.0001/med-9780198784906-chapter-64\" class=\"text-primary\">[2]</a>.&nbsp;</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Falta de data epidemiológica <br>a nivel nacional/Desinformación Poblacional</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">En el país, se desconoce la incidencia tanto de las muertes súbitas como de las causas que las producen, tampoco existen reportes estadísticos relacionados a la cantidad de muertes por arritmia ni por taquicardia ventricular <a href=\"https://www.aerjournal.com/articles/sudden-cardiac-death-arrhythmias\">[3]</a>.&nbsp;Si extrapolamos las cifras obtenidas en otros países <a href=\"https://www.anmm.org.mx/bgmm/1864_2007/2005-141-2-89-98.pdf\">[4]</a> <a href=\"https://www.enfermeriaencardiologia.com/wp-content/uploads/electro_04.pdf\">[5]</a> con una incidencia aproximada de 50/100 000 habitantes, en el Perú habrían alrededor de <b>16 000 muertes súbitas anuales. </b></p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Existen limitaciones en la elección del<br>método epidemiológico correcto</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">EEUU:<br>Durante los últimos 20 a 30 años, MSC representó\n<br>aproximadamente 230 000 a 350 000 muertes por año <a href=\"https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000549\">[6]</a>.<br>Ecuador:<br>Según datos recogidos por el Instituto Nacional de Estadísticas y Censos del Ecuador\n(INEC), en el año 2014 se reportaron un total de 4 430 muertes por enfermedades\n<br>isquémicas del corazón. Las arritmias cardíacas sumaron un total de 168 muertes, mientras que los\nfallecidos por paros cardíacos en ese mismo año fueron 106 <a href=\"http://dspace.uniandes.edu.ec/bitstream/123456789/6879/1/PIUAMED076-2017.pdf\">[7]</a>.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"55\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/blood-donation-infographic-800x2000.png\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Aspecto Social</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">La muerte súbita cardiaca (MSC) junto con la arritmia son un problema global significativo para la salud pública, ya que representan entre 4 y 5 millones de muertes a anuales a nivel mundial <a href=\"https://oxfordmedicine.com/view/10.1093/med/9780198784906.001.0001/med-9780198784906-chapter-64\" class=\"text-primary\">[2]</a>.&nbsp;</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Falta de data epidemiológica <br>a nivel nacional/Desinformación Poblacional</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">En el país, se desconoce la incidencia tanto de las muertes súbitas como de las causas que las producen, tampoco existen reportes estadísticos relacionados a la cantidad de muertes por arritmia ni por taquicardia ventricular <a href=\"https://www.aerjournal.com/articles/sudden-cardiac-death-arrhythmias\">[3]</a>.&nbsp;Si extrapolamos las cifras obtenidas en otros países <a href=\"https://www.anmm.org.mx/bgmm/1864_2007/2005-141-2-89-98.pdf\">[4]</a> <a href=\"https://www.enfermeriaencardiologia.com/wp-content/uploads/electro_04.pdf\">[5]</a> con una incidencia aproximada de 50/100 000 habitantes, en el Perú habrían alrededor de <b>16 000 muertes súbitas anuales. </b></p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Existen limitaciones en la elección del<br>método epidemiológico correcto</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">EEUU:<br>Durante los últimos 20 a 30 años, MSC representó\n<br>aproximadamente 230 000 a 350 000 muertes por año <a href=\"https://www.ahajournals.org/doi/pdf/10.1161/CIR.0000000000000549\">[6]</a>.<br>Ecuador:<br>Según datos recogidos por el Instituto Nacional de Estadísticas y Censos del Ecuador\n(INEC), en el año 2014 se reportaron un total de 4 430 muertes por enfermedades\n<br>isquémicas del corazón. Las arritmias cardíacas sumaron un total de 168 muertes, mientras que los\nfallecidos por paros cardíacos en ese mismo año fueron 106 <a href=\"http://dspace.uniandes.edu.ec/bitstream/123456789/6879/1/PIUAMED076-2017.pdf\">[7]</a>.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
           "_cid": "rBqYmWKWX2",
           "_anchor": "features11-q",
           "_protectedParams": [],
@@ -2226,7 +2226,7 @@
             }
           },
           "_name": "features11",
-          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"55\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/cardioversion-715x1024.png\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Aspecto Económico</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">Las carencias financieras, de infraestructura, sociales y de educación en los sistemas de salud en países con bajos ingresos contribuyen a limitaciones en la asistencia sanitaria y desarrollo de tecnología médica <a href=\"https://www.anmm.org.mx/bgmm/1864_2007/2005-141-2-89-98.pdf\">[8]</a>.</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Costos Totales internacionales</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">El uso de intervenciones y dispositivos cardiovasculares y ciertas características hospitalarias son los principales contribuyentes del aumento del costo.<br>Canadá:<br>Cuando se incluyen los costos indirectos, como la pérdida de productividad de los pacientes y sus cuidadores, la carga económica relacionadas con la arritmia supera los <b>$ 10 mil millones por año</b><a href=\"https://canet-nce.ca/canet-newsroom/heart-month-and-the-impact-of-arrhythmias/\"> [9]</a><b>.</b><br><br>EEUU:<br>&nbsp;Una estimación coloca el costo total del paro cardíaco en los Estados Unidos en <b>$ 33 mil millones por año</b>, y el 17% de esa cifra total es atribuible al índice de hospitalización post paro cardíaco con y sin supervivencia <a href=\"https://www.ahajournals.org/doi/full/10.1161/CIRCEP.117.005689\">[10]</a>.<br></p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Costos hospitalarios a nivel nacional</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">El Perú se encuentra en un periodo de transición epidemiológica y nutricional. Debido a la centralización en las zonas de la costa, especialmente en su capital Lima, se genera gran dificultad de acceso a los servicios de salud, con un mayor peso de enfermedades no transmisibles y aumento de factores de riesgo cardiovascular <a href=\"https://rpmesp.ins.gob.pe/index.php/rpmesp/article/view/1269/1263\">[11]</a>.&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"55\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/el-doctor-de-la-emergencia-con-un-defibrillator-en-su-mano-est-listo-para-influenciar-empleado-mdico-especializacin-del-89387616-720x900.jpg\" alt title=\"Fuente: \">\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Aspecto Económico</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">Las carencias financieras, de infraestructura, sociales y de educación en los sistemas de salud en países con bajos ingresos contribuyen a limitaciones en la asistencia sanitaria y desarrollo de tecnología médica <a href=\"https://www.anmm.org.mx/bgmm/1864_2007/2005-141-2-89-98.pdf\">[8]</a>.</p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Costos Totales internacionales</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">El uso de intervenciones y dispositivos cardiovasculares y ciertas características hospitalarias son los principales contribuyentes del aumento del costo.<br>Canadá:<br>Cuando se incluyen los costos indirectos, como la pérdida de productividad de los pacientes y sus cuidadores, la carga económica relacionadas con la arritmia supera los <b>$ 10 mil millones por año</b><a href=\"https://canet-nce.ca/canet-newsroom/heart-month-and-the-impact-of-arrhythmias/\"> [9]</a><b>.</b><br><br>EEUU:<br>&nbsp;Una estimación coloca el costo total del paro cardíaco en los Estados Unidos en <b>$ 33 mil millones por año</b>, y el 17% de esa cifra total es atribuible al índice de hospitalización post paro cardíaco con y sin supervivencia <a href=\"https://www.ahajournals.org/doi/full/10.1161/CIRCEP.117.005689\">[10]</a>.<br></p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">Costos hospitalarios a nivel nacional</h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">El Perú se encuentra en un periodo de transición epidemiológica y nutricional. Debido a la centralización en las zonas de la costa, especialmente en su capital Lima, se genera gran dificultad de acceso a los servicios de salud, con un mayor peso de enfermedades no transmisibles y aumento de factores de riesgo cardiovascular <a href=\"https://rpmesp.ins.gob.pe/index.php/rpmesp/article/view/1269/1263\">[11]</a>.&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
           "_cid": "rBqYWGZbEl",
           "_anchor": "features11-r",
           "_protectedParams": [],
@@ -2656,7 +2656,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
+                "caption": "Mapa de valor",
                 "active": false
               },
               {
@@ -4273,76 +4273,686 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
+            ".mbr-section-subtitle": {
               "color": "#767676"
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Redes neuronales</b></p><p>Uso de redes neuronales para diagnóstico ambulatorio de arritmias. El electrocardiograma es empleado para el diagnóstico de un amplio espectro de anormalidades cardiacas. La red neuronal se diseñó para diagnosticar 10 tipos de arritmia así como synus ritm y soplo\n</p><div>\n</div><div>Se empleó una base de datos que consistía en 91 232 registros de 53 449 pacientes. La fidelidad del diagnóstico, en términos de especificidad y sensitividad superó a la del promedio de médicos licenciados, en todos los tiempos tipos de ritmos anormales.\n</div><div>\n</div><div>Las tendencias de error difieren entre distintos tipos de ritmos y sin embargo tanto el algoritmo como los médicos siguen los mismos patrones, siempre la red neuronal superando al promedio de médicos en especificidad y sensitividad\n.</div><div><br></div><div><b>Bases de datos</b></div><div>La base de datos MIT-BIH Arrythmia Database fue el primer conjunto de material de exámenes para la evaluación de arritmias, estandarizados y de acceso general. Continúa siendo empleada hasta la fecha junto a la American Heart Asociation Database. Ha servido para promover el desarrollo de analizadores de arritmia, al ofrecer tener muestras de verificación que permitan la medición objetiva sus desempeños. Hasta entonces los desarrolladores tenían que incurrir en gastos para realizar sus propias bases de datos, que podían asimismo contener sesgos y errores, así como estar basados en muestras pequeñas.</div><div><b><br></b></div><div><b>Sistema de Tele-Monitoreo Inalámbrico de Eventos Cardiacos para Seguimiento de Arritmias</b></div><div>•\tSe ha desarrollado un esquema de tele-monitoreo inalámbrico que posibilita el registro pre-sintomático de eventos, que puede constituir una alternativa para el seguimiento de pacientes afectados de arritmias cardiacas.\n</div><div>•\tEn este esquema, el paciente usa un pequeño dispositivo de monitoreo que similarmente al electrocardiograma (ECG), procesa la señal usando algoritmos para el cálculo de la frecuencia cardíaca y la detección de arritmias graves mediante la reconstrucción del espacio de fases; almacena los eventos en una tarjeta de memoria extraíble; y transmite las señales si se produce una detección de anormalidad de la señal. \n</div><div>•\tLa información se envía a un centro especializado de monitoreo cardiovascular, donde puede ser evaluada por un médico, que puede hacer un diagnóstico sin requerir el desplazamiento del paciente. \n</div><div>•\tLos diferentes componentes del sistema han sido validados a través de diferentes pruebas que confirman su funcionalidad.\n</div><div><br></div><div><b>Ablación por radiofrecuencia para el tratamiento de las arritmias cardíacas en 500 pacientes consecutivos\n</b></div><div>\n</div><div>•\tLa ablación por radiofrecuencia al ser un método eficaz y seguro en el tratamiento de prácticamente todas las arritmias cardíacas, se ha impuesto como la técnica de primera elección para el tratamiento de la mayoría de las taquiarritmias cardíacas sostenidas, aun la fibrilación auricular recientemente incluida.\n</div><div>&nbsp;\n</div><div>•\t Los resultados obtenidos en la ablación de las arritmias cardíacas son satisfactorios, aun sin contar con los últimos avances tecnológicos, que actualmente no están disponibles para la mayoría de los grupos en nuestro medio.\n</div><div>\n</div><div>•\tLas arritmias tratadas fueron: aleteo auricular (30%),reentrada nodal (29%), vías accesorias (20%), taquicardia auricular (8%),taquicardia ventricular  (5%), fibrilación auricular (aislamiento de las venas pulmonares) (5%) y ablación completa del nodo AV 13 (3%). \n</div><div><br></div><div><b><br></b></div><p></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rBYvVP9ZRg",
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Deep learning para diagnóstico de Arritmia Ventricular</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rCBqTx13Eb",
+          "_anchor": "content4-9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-b"
+          "_params": {}
         },
         {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background": "@bgColor",
-            ".media-container-row": {
-              "margin": "0 auto",
-              "align-items": "stretch",
-              "-webkit-align-items": "stretch",
-              ".img-item": {
-                "display": "-webkit-flex",
-                "flex-direction": "column",
-                "justify-content": "center",
-                "position": "relative",
-                "width": "100%",
-                "z-index": "1",
-                "-webkit-flex-direction": "column",
-                "-webkit-justify-content": "center",
-                "img": {
-                  "width": "100%",
-                  "min-height": "1px"
-                },
-                ".img-caption": {
-                  "background": "@cpBg",
-                  "z-index": "2",
-                  "padding": "1rem 1rem",
-                  "word-break": "break-word",
-                  "p": {
-                    "margin-bottom": "0"
-                  }
-                },
-                "&.item1": {
-                  "padding": "0 2rem 0 0"
-                }
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".img-item": {
-                "width": "100% !important",
-                "&.item1": {
-                  "width": "100%",
-                  "flex-basis": "initial !important",
-                  "padding": "0 0 2rem 0 !important",
-                  "-webkit-flex-basis": "initial !important"
-                }
-              }
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             }
           },
-          "_name": "content13",
-          "_customHTML": "<section>\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"66\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"30\" max=\"300\" value=\"179\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showCaption\" checked>\n        <input type=\"color\" title=\"Caption Background\" name=\"cpBg\" value=\"#efefef\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div class=\"container\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/34tt4e-892x531.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsive\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/45ghtr-510x252.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile friendly\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
-          "_cid": "rBYxiRrop0",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                Dentro de la detección de arritmias <b>la interpretación de del electrocardiograma (EGC)</b> tiene un\n&nbsp;<span style=\"font-size: 1rem;\">papel primordial, aproximadamente en el mundo se toman 300 millones de ECG. Los datos&nbsp;</span><span style=\"font-size: 1rem;\">digitales y los algoritmos necesarios para el entendimiento del EGC están altamente&nbsp;</span><span style=\"font-size: 1rem;\">disponibles es por ello que se busca su mejoramiento por un ordenador, puesto que <b>su\n&nbsp;</b></span><span style=\"font-size: 1rem;\"><b>interpretación se ha vuelto más importante en el flujo clínico</b>.&nbsp;</span><span style=\"font-size: 1rem;\">Es por eso que se investiga y propone crear un sistema que trabaje <b>una red neuronal.</b></span><span style=\"font-size: 1rem;\">&nbsp;</span><span style=\"font-size: 1rem;\">En una investigación, se propuso detectar 12 clases de ritmo cardiaco ECG de una derivación sin procesar&nbsp;</span><span style=\"font-size: 1rem;\">utilizando un conjunto de datos que consiste en 91,232 registros de ECG.</span><span style=\"font-size: 1rem;\">&nbsp;El enfoque estándar para interpretación ECG automatizado emplea diversas&nbsp;</span><span style=\"font-size: 1rem;\">técnicas a través de una serie de pasos que incluyen tratamiento de señales, extracción de&nbsp;</span><span style=\"font-size: 1rem;\">características, la función de selección, reducción y clasificación[1].&nbsp;</span><span style=\"font-size: 1rem;\">Las señales obtenidas de un paciente, es decir, bioseñales se utilizan para analizar la salud de&nbsp;</span><span style=\"font-size: 1rem;\">paciente. Una de las bioseñales de suma importancia es el electrocardiograma (ECG),&nbsp;</span><span style=\"font-size: 1rem;\">representa el funcionamiento del corazón, si existe alguna señal fuera de lo normal nos&nbsp;</span><span style=\"font-size: 1rem;\">indicaría que hay un mal funcionamiento en el corazón denominado condición de arritmia. En&nbsp;</span><span style=\"font-size: 1rem;\">este proceso se trabaja con la monitorización a largo plazo basado en el diagnóstico asistido\n&nbsp;</span><span style=\"font-size: 1rem;\">por computadora (CADiag), existen diversas técnicas de CADiag para el diagnóstico de arritmia&nbsp;</span><span style=\"font-size: 1rem;\">con sus propios beneficios y limitaciones. Debido a los grandes retos que existen para&nbsp;</span><span style=\"font-size: 1rem;\">diagnosticar arritmias de manera oportuna se hace énfasis a desarrollar un sistema de CADiag&nbsp;</span><span style=\"font-size: 1rem;\">y su mejoramiento [2].</span></p><p><span style=\"font-size: 1rem;\">En otras investigaciones, se propuso un enfoque de aprendizaje automático basado en redes neuronales recurrentes (RNNs: recurrent neural networks) para diferenciar entre varios tipos de ritmos cardíacos con solo una derivación y registros cortos de ECG.\n&nbsp;</span><span style=\"font-size: 1rem;\">Utilizaron un conjunto de datos anotados de 12,186 grabaciones de ECG de una sola derivación para construir un conjunto diverso de redes neuronales constantes que puede distinguir entre ritmos sinusales normales, fibrilación auricular, otros tipos de arritmia y otras señales que son demasiado ruidosas para interpretar [3].&nbsp;</span><span style=\"font-size: 1rem;\">Uno de los métodos novedosos es la máquina de Boltzmann restringida (RBM:Restricted Boltzmann Machine ) y las redes de creencias profundas o Inteligencia Artificial (DBN:deep belief networks) para la detección de latidos ventriculares y supraventriculares utilizando ECG de una sola derivación [4].</span></p><p><span style=\"font-size: 1rem;\">Por otro lado, es importante tener en cuenta que la base de datos MIT-BIH Arrythmia Database fue el primer conjunto de material de exámenes para la evaluación de arritmias, estandarizados y de acceso general. Continúa siendo empleada hasta la fecha junto a la American Heart Asociation Database. Ha servido para promover el desarrollo de analizadores de arritmia, al ofrecer tener muestras de verificación que permitan la medición objetiva sus desempeños. Hasta entonces los desarrolladores tenían que incurrir en gastos para realizar sus propias bases de datos, que podían asimismo contener sesgos y errores, así como estar basados en muestras pequeñas [5].</span></p><p><span style=\"font-size: 1rem;\">[1] Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms\n&nbsp;</span><span style=\"font-size: 1rem;\">using a deep neural network [Internet]. 2019 [cited 18 September 2019]. Available from: https://www.nature.com/articles/s41591-018-0268-3</span><span style=\"font-size: 1rem;\">&nbsp;</span></p><p><span style=\"font-size: 1rem;\">[2] Computer-Aided Arrhythmia Diagnosis with Bio-signal Processing: A Survey of Trends and\n&nbsp;</span><span style=\"font-size: 1rem;\">Techniques [Internet]. 2019 [cited 18 September 2019]. Available from: https://dl.acm.org/citation.cfm?id=3297711</span></p><p><span style=\"font-size: 1rem;\">[3] Schwab P, C Scebba G, Zhang J, Delai M, Karlen W. Beat by beat: Classifying cardiac arrhythmias with recurrent neural networks - IEEE Conference Publication [Internet]. Ieeexplore.ieee.org. 2019 [cited 19 September 2019]. Available from: https://ieeexplore.ieee.org/abstract/document/8331750/keywords#keywords\n</span></p><p><span style=\"font-size: 1rem;\">[4] Mathews, S. M., Kambhamettu, C., &amp; Barner, K. E. (2018). A novel application of deep learning for single-lead ECG classification. Computers in biology and medicine, 99, 53-62. Available from: https://www.sciencedirect.com/science/article/pii/S0010482518301264</span></p><p><span style=\"font-size: 1rem;\">[5] Moody, G. B., &amp; Mark, R. G. (2001). The impact of the MIT-BIH arrhythmia database. IEEE Engineering in Medicine and Biology Magazine, 20(3), 45-50.</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rCBrBxnGPX",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content13-c"
+          "_anchor": "content1-c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"2\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rCBqXSLnZ3",
+          "_anchor": "gallery4-a",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-340-2000x987.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-340-2000x987-800x395.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Diagnóstico frente a cardiólogos [1]",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-352-1668x888.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-352-1668x888-800x426.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Métodos tradicionales de detección &nbsp;[2]",
+                "active": false
+              },
+              {
+                "tags": "Creativa",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-354-1668x1540.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-354-1668x1540-800x739.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Técnicas de Deep Learning [2]",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-342-1385x1833.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-342-1385x1833-800x1059.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Estructura de la red neuronal [1]",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-351-1304x1382.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-351-1304x1382-800x848.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Detección de la señal [2]",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-350-1396x1895.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-350-1396x1895-800x1086.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tipos de arritmias ECG [2]",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-356-1668x583.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-356-1668x583-800x322.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Estructura de red neuronal [3]",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background8.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background8.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Diagnóstico mediante dispositivos móbiles</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-d",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rCBBeUiePX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">La mayor dificultad es que no se pueden diagnosticar en las primeras etapas. La investigación corrobora la creación de un dispoditivo de diagnóstico económico. Por ello, proponen que el dispositivo que tenga énfasis en la detección de arritmia,un electrocardiógrafo portátil, económico y que envíe información en tiempo real con un  énfasis en la detección de arritmia y clasificación. Para el funcionamiento del equipo se ve conveniente usar  Raspberry Pi 3 (RasPi), pues se el RasPi cuenta con  capacidades de procesamiento de señal y transferencia inalámbrica pues actúa como un adaptador entre los sensores y un teléfono móvil que cuente con una aplicación personalizada, a la cual se le enviará el informe del (EGC). Para esto se utilizan algoritmos de detección que puedan extraer características de las señales enviadas a tiempo real, para la validación de este dispositivo se hizo una prueba en la base de datos estándar de arritmia MITBIH y se obtuvo una precisión superior al 95%. Validando el enfoque hacia el monitoreo y la detección de arritmias con amplias aplicaciones en sistemas de salud móviles[1].\n</span></p><p><span style=\"font-size: 1rem;\">Massachusetts Institute of Technology Media Lab ha desarrollado una aplicación móvil que utiliza una cámara de teléfono inteligente para detectar signos faciales de una arritmia cardíaca asociada con accidentes cerebrovasculares, llamada Cardiio Rhythm; esto es posible debido a que mide y analiza pequeños cambios de luz reflejados en la piel como resultado del pulso. Cardiio funciona porque cada latido aumenta el volumen de sangre en los vasos del usuario, la hemoglobina de la sangre absorbe la luz, lo que disminuye la luz reflejada por la piel, haciendo posible así, que la aplicación Cardiio rastree esos pequeños cambios en la luz reflejada, no visible para el ojo humano, para calcular con precisión un latido. Esos datos permiten que la aplicación pueda detectar patrones irregulares de latidos cardíacos de fibrilación auricular (FA).\n&nbsp;</span><span style=\"font-size: 1rem;\">En un futuro cercano, se espera que Cardiio Rhythm esté disponible para los consumidores para la detección temprana de arritmia cardíaca.[2]&nbsp;</span></p><p><span style=\"font-size: 1rem;\">Ejemplos: </span></p><p><span style=\"font-size: 1rem;\">ECG check\n:&nbsp;</span><span style=\"font-size: 1rem;\">ECG Check consiste en un detector ligeramente más grande con dos electrodos metálicos.&nbsp;</span><span style=\"font-size: 1rem;\">Un usuario coloca un solo dedo en cada uno de los electrodos durante 30 segundos y luego el detector envía los datos por Bluetooth al teléfono inteligente del usuario [3].</span></p><p><span style=\"font-size: 1rem;\">EPI Mini\n:&nbsp;</span><span style=\"font-size: 1rem;\">EPI Mini (EPI Mobile Health Solutions, Paragon, Singapur) es un dispositivo independiente que consiste en una unidad portátil con tres sensores que generan un seguimiento de ECG de una sola derivación de 30 s. A diferencia de otros dispositivos, este dispositivo tiene una pantalla de visualización en la unidad del detector para visualizar el trazado del ECG. Esta unidad también puede transmitir los datos a través de Bluetooth al teléfono inteligente de un usuario [3].&nbsp;</span></p><p><span style=\"font-size: 1rem;\">D-Heart\n:&nbsp;</span><span style=\"font-size: 1rem;\">D-Heart (D-Heart®, Génova, Italia) consiste en un dispositivo de recolección con cinco derivaciones de ECG, que se conectan al pecho del paciente a través de electrodos adhesivos, similares a los utilizados por el ECG convencional de 12 derivaciones. Los datos son enviados por el dispositivo de recolección y luego transmitidos por Bluetooth a un teléfono inteligente. [3]&nbsp;</span></p><p><span style=\"font-size: 1rem;\">En otro trabajo, se presenta un nuevo sistema de monitoreo de señal electrocardiográfico (ECG) inalámbrico basado en un teléfono inteligente. \n</span><span style=\"font-size: 1rem;\">Este sistema tiene dos secciones principales. La primera sección consiste en un sensor que recibe señales de ECG a través de un amplificador, luego filtra y digitaliza la señal, y la prepara para su transmisión. Las señales se almacenan, procesan y luego se muestran en una aplicación móvil [4]. La aplicación alarma en situaciones peligrosas y envía la ubicación del paciente cardíaco a la familia o al personal de atención médica.\n&nbsp;</span><span style=\"font-size: 1rem;\">Los resultados obtenidos del análisis de las señales de electrocardiograma en 20 personas diferentes han sido comparados con el ECG tradicional en el hospital por un cardiólogo.&nbsp;</span><span style=\"font-size: 1rem;\">Se obtiene una precisión de rendimiento del 91,62% del sistema de ECG inalámbrico. Se ajusta al sistema estándar de diagnóstico del hospital al tiempo que proporciona un monitoreo portátil en cualquier lugar y en cualquier momento.</span></p><p><span style=\"font-size: 1rem;\">[1] A Portable Real Time ECG Device for Arrhythmia Detection Using Raspberry Pi. (2017). 6th ed. [ebook] milan, italia: springer, pp.177-184. Available at: https://link.springer.com/content/pdf/10.1007%2F978-3-319-58877-3.pdf [Accessed 19 Sep. 2019].</span><br></p><p><span style=\"font-size: 1rem;\">[2] Matheson R. App screens for arrhythmia using smartphone camera [Internet]. MIT News. 2019 [cited19September2019]. Available from: http://news.mit.edu/2017/cardiio-app-screens-arrhythmia-smartphone-camera-0329\n</span></p><p><span style=\"font-size: 1rem;\">\n</span><span style=\"font-size: 1rem;\">[3] Walker A, Muhlestein J. Smartphone electrocardiogram monitoring: current perspectives [Internet]. 2019 [cited 19 September 2019]. Available from: https://www.dovepress.com/smartphone-electrocardiogram-monitoring-current-perspectives-peer-reviewed-fulltext-article-AHCT&nbsp;</span></p><p><span style=\"font-size: 1rem;\">\n</span><span style=\"font-size: 1rem;\">[4] Golzar M, Fotouhi-Ghazvini F, Rabbani H, Sadat Zakeri F. 8.\tMobile Cardiac Health-care Monitoring and Notification with Real Time Tachycardia and Bradycardia Arrhythmia Detection [cited 19 September 2019]. Availablefrom: https://www.researchgate.net/profile/Hossein_Rabbani2/publication/321157849_Mobile_Cardiac_Health-care_Monitoring_and_Notification_with_Real_Time_Tachycardia_and_Bradycardia_Arrhythmia_Detection/links/5a50af060f7e9bbc1054032b/Mobile-Cardiac-Health-care-Monitoring-and-Notification-with-Real-Time-Tachycardia-and-Bradycardia-Arrhythmia-Detection.pdf&nbsp;</span></p><p><span style=\"font-size: 1rem;\">[5] Cheung, C. C., Krahn, A. D., &amp; Andrade, J. G. (2018). The emerging role of wearable technologies in arrhythmia detection. Can J Cardiol.]</span></p><p><span style=\"font-size: 1rem;\"><br></span></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-e",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rCBBhBRWPj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rCBD6v8nz8",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-362-2000x842.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-362-2000x842-800x337.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Posicionamiento de electrodos [1]",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-362-2000x842.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-362-2000x842-800x337.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Tabla comparativa [3]",
+                "active": false
+              },
+              {
+                "tags": "Creativa",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-358-1737x860.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-358-1737x860-800x396.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Aplicación de celular [1]",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-359-1346x1534.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-359-1346x1534-800x912.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Perspectiva de los wearable [5]",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-360-1007x582.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-360-1007x582-800x462.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "MIT interfaz [2]",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-357-2000x1342.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-357-2000x1342-800x537.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Criterio para dividir tipos [1]",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery4-f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Wearables en Arritmia Ventricular</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-g",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rCBK6iWmTB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>El electrocardiógrafo (ECG) es el método más común en monitoreo de signos vitales, ampliamente usado en el sistema de salud. Cuenta con diferentes diseños, estos se centran principalmente en la portabilidad y la conveniencia del usuario, al tiempo que mantienen la integridad de la señal y reducen el consumo de energía. Es por ello que el diseño que se presenta en esta investigación, muestra los <b>electrodos secos con acoplamiento capacitivo capaces de poder medir señales de ECG a través de un material de interfaz textil entre la piel y los electrodos.</b> Los electrodos están conectados a un sistema de adquisición de datos que recibe las señales de ECG sin procesar de los electrodos y transmite los datos usando <b>Bluetooth</b> a una computadora. se planea tener un software desarrollado para procesar, almacenar y mostrar la señal de ECG en tiempo real. <b>El objetivo principal de los sistemas ambulatorios de ECG es facilitar el monitoreo de la actividad del corazón fuera de la clínica y la vez un monitoreo continuo de la salud cardiovascular</b> de esta manera permitiendo así la <b>detección y diagnóstico</b> de cualquier problema relacionado con el corazón en su inicio. uno de los principales problemas que se afrontan con este sistema es la contaminación de la señal, es decir que pueden ocurrir interferencia al momento de enviar la información por contacto con algún otro artefacto o por el movimiento del cuerpo, es por ello que se busca la mejora de los electrodos teniendo como base principal que sean flexibles, analogicos y mejorados con la técnica de procesamiento de señales por chip [1].\n </p><p>Para las mediciones de ECG, los electrodos de bio-potencial más utilizados son los electrodos \"húmedos\" de plata o cloruro de plata que están soportados por una capa adhesiva y una capa de gel para mejorar el contacto con la piel. Sin embargo, el uso de <b>electrodos \"húmedos\"</b> en aplicaciones de monitoreo portátiles a largo plazo a menudo no son preferibles <b>debido a la irritación de la piel y las molestias causadas por el gel</b>; y los posibles errores de medición debido a la <b>disminución del rendimiento del electrodo y la conductividad</b> a medida que el gel se seca con el tiempo [2]\n.&nbsp;<span style=\"font-size: 1rem;\">Por ello se intenta abordar los desafíos en la integración de nivel de sistema y la portabilidad informando el desarrollo de un brazalete de ECG de un solo brazo incrustado con <b>textiles flexibles de grafeno</b> como electrodos de detección de sequedad y circuitos de lectura para adquisición de datos. Para abordar los requisitos de las aplicaciones de monitorización de la salud a largo plazo, ha habido un interés creciente en desarrollar<b> electrodos de bio-potencial \"secos\" </b>compatibles con la piel, que se puedan usar, que disminuyen la irritación, la incomodidad y los problemas con el gel seco en los electrodos comerciales. Debido a su textura suave, sensación cómoda y capacidad de ser tejidas directamente en la ropa; los tejidos textiles pueden ser ventajosos para construir dispositivos portátiles, flexibles, secos y sin gel, incluidos electrodos de potencial biológico y sensores para el monitoreo del electrocardiograma [2].</span></p><p><span style=\"font-size: 1rem;\">Para mayor robustez, está equipado con capacidades de análisis; por ejemplo, detección de latidos en tiempo real y un algoritmo de filtro para ignorar las distracciones de los movimientos corporales o el ruido del entorno.\n&nbsp;</span><span style=\"font-size: 1rem;\">Una aplicación de Android también fue creada a la par para lograr un sistema de salud móvil,el cual puede mostrar una señal de ECG en tiempo real en un gráfico y luego el análisis de los datos para tomar decisiones inteligentes. &nbsp;</span><span style=\"font-size: 1rem;\">Los resultados indican que la tasa de error de cálculo de la frecuencia cardíaca propuesta es menor del 10% en comparación con un sistema estándar y que el sistema propuesto aún puede funcionar incluso con diferentes grosores de ropa entre sensores y la piel, también pueden funcionar cuando el usuario realiza diversas actividades de la vida diaria [3].</span></p><p><span style=\"font-size: 1rem;\">Para usar un ECG como dispositivo portátil, las posiciones de los electrodos deben cumplir con la colocación clínica, por ello se propone una nueva colocación de electrodos biomédicos para cumplir con la practicidad de un dispositivo de estilo de vida físico [4].\n&nbsp;</span><span style=\"font-size: 1rem;\">El ECG utiliza electrodos pasivos que son unidos a nuestra piel en el pecho y el brazo. Lo beneficioso de la <b>colocación de los sensores alrededor del pecho</b>&nbsp;en forma de collar es que  puede adquirir señales claras sin ruido porque cuanto más cerca del corazón este, mayor será la señal de ECG recuperada. La colocación de los electrodos en la parte posterior del cuello tiene varias ventajas en el aspecto diario que otros dispositivos no poseen porque al medir la señal de ECG es posible moverse alrededor del vector cardíaco de Triángulo de Einthoven con una distancia uniforme y  no interfiere en las actividades o movimientos diarios. </span><span style=\"font-size: 1rem;\">Para comenzar la monitorización del corazón, se utiliza una la consola serie Bluetooth en el teléfono inteligente para comenzar a grabar. Luego, los registros de datos <b>se almacenarán en la memoria y en la microSD.</b> Los datos se transfieren a la PC desde microSD para analizar las señales. El dispositivo tiene un extremo frontal analógico de ECG de una sola derivación y utiliza una tarjeta de memoria de 4 GB, una batería recargable y Bluetooth Low Energy 4.0 para comunicarse con un teléfono inteligente Android 4.3. [4].&nbsp;</span></p><p><span style=\"font-size: 1rem;\">[1] Noncontact Wearable Wireless ECG Systems for Long-Term Monitoring. (2018). [ebook] IEEE. Available at: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8368254 [Accessed 19 Sep. 2019].&nbsp;</span><br></p><p><span style=\"font-size: 1rem;\">[2] Acar G, Ozturk O, Kaya Yapici M. Wearable Graphene Nanotextile Embedded Smart Armband for Cardiac Monitoring - IEEE Conference Publication [Internet]. Ieeexplore.ieee.org. 2019 [cited 19 September 2019]. Available from: https://ieeexplore.ieee.org/abstract/document/8589800\n</span></p><p><span style=\"font-size: 1rem;\">\n</span><span style=\"font-size: 1rem;\">[3] Rachim, V. P., &amp; Chung, W. Y. (2016). Wearable noncontact armband for mobile ECG monitoring system. IEEE transactions on biomedical circuits and systems, 10(6), 1112-1118.&nbsp;</span><span style=\"font-size: 1rem;\">https://ieeexplore.ieee.org/abstract/document/7471436&nbsp;</span></p><p><span style=\"font-size: 1rem;\">[4] 7. A. Iskandar A, Kolla R, Schilling K, Voelker W. A wearable 1-lead necklace ECG for continuous heart rate monitoring - IEEE Conference Publication [Internet]. Ieeexplore.ieee.org. 2019 [cited 19 September 2019]. Available from: https://ieeexplore.ieee.org/abstract/document/7749480\n</span></p><p><span style=\"font-size: 1rem;\">[5] Zhao, J. F., Chen, X. M., Liang, B. D., &amp; Chen, Q. X. (2017). A review on human body communication: signal propagation model, communication performance, and experimental Issues. Wireless Communications and Mobile Computing, 2017.</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-h",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rCBK7BPlbJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"3\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rCBMpMc0Gj",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-364-2000x1217.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-364-2000x1217-800x487.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Comparativa entre ECG ambulatorios [1]",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-365-2000x1144.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-365-2000x1144-800x458.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Comparativa entre ECG ambulatorios [1]",
+                "active": false
+              },
+              {
+                "tags": "Creativa",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-367-2000x767.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-367-2000x767-800x307.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Comparativa Monitores ECG comerciales [1]",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-368-1997x1254.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-368-1997x1254-800x502.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Comparativa ECG comerciales [1]",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-369-2000x1357.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-369-2000x1357-800x543.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Comparativa sensar [1]",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-370-1953x536.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-370-1953x536-800x220.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Comparativa Transmisión [5]",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-338-1934x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-338-1934x1333-800x551.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Human body communication (HBC) [5]",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-340-2000x1500.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-340-2000x1500-800x550.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "HBC principle [5]",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery4-i"
         },
         {
           "alias": false,
@@ -4352,34 +4962,38 @@
             "background-color": "@bgColor",
             ".counter-container": {
               "color": "#767676",
-              "ol": {
+              "ul": {
                 "margin-bottom": "0",
                 "li": {
-                  "margin-bottom": "1rem"
-                },
-                "& when (@stylizedCounters)": {
-                  "counter-reset": "myCounter",
-                  "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
                     "list-style": "none",
-                    "padding-left": ".5rem",
                     "&:before": {
                       "position": "absolute",
                       "left": "0px",
                       "margin-top": "-10px",
-                      "counter-increment": "myCounter",
-                      "content": "counter(myCounter)",
+                      "padding-top": "3px",
+                      "content": "''",
                       "display": "inline-block",
                       "text-align": "center",
                       "margin": "5px 10px",
-                      "line-height": "40px",
+                      "line-height": "20px",
                       "transition": "all .2s",
                       "color": "contrast(@counterColor)",
                       "background": "@counterColor",
-                      "width": "40px",
-                      "height": "40px",
+                      "width": "25px",
+                      "height": "25px",
                       "border-radius": "50%",
-                      "& when (@squareCounters)": {
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
                         "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
                       }
                     }
                   }
@@ -4387,14 +5001,14 @@
               }
             }
           },
-          "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>Portabilidad: </b>Compacto/liviano/Wireless/Batería&nbsp;</li>\n                    <li><b>Fiabilidad: </b>Autocalibrable/Especificidad/Sensibilidad/Validable<b>&nbsp;</b></li>\n                    <li><b>Durabilidad: </b>Tiempo de vida media/Resistente</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rBYz2AX8YO",
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><b>LISTA DE REQUERIMIENTOS:</b></div><div><b><br></b></div><ul>\n                    <li><b>PORTABILIDAD</b>&nbsp;- Compacto/liviano/Wireless/Batería</li>\n                    <li><b>FIABILIDAD</b>&nbsp;- Autocalibrable/Especificidad/Sensibilidad/Validable</li>\n                    <li><b>DURABILIDAD</b>&nbsp;- Tiempo de vida media/Resistente</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rCBqoWMSRF",
+          "_anchor": "content12-8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content11-d"
+          "_params": {}
         }
       ]
     },
@@ -4852,6 +5466,303 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Propuestas de solución</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">HITO 1</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "rCBQpW3jq7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header1-j"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-371-2170x903.png\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rCBS4gj5e3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image2-l"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#f7ed4a\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".section-text\" mbr-text><b>PROPUESTAS DE SOLUCIÓN</b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rCBSgmUsTS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-n"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".row > .row": {
+              "display": "block"
+            },
+            ".mbr-gallery-item": {
+              "width": "100%"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div": {
+              "position": "relative",
+              "&:hover": {
+                ".mbr-gallery-title::before": {
+                  "background": "transparent !important"
+                },
+                "&:before": {
+                  "opacity": "@overlayOpacity !important"
+                }
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "rCBSfpWxSk",
+          "_protectedParams": [
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "gallery": [
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background1.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background1.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Propuesta 1",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background2.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background2.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Propuesta 2",
+                "active": false
+              },
+              {
+                "tags": "Creativa",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background3.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background3.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Propuesta 3",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background4.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background4.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background5.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background5.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background6.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background6.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background7.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background7.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@THEME_PATH@/components/_images/background8.jpg",
+                "thumb": "@THEME_PATH@/components/_images/background8.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery4-m"
         }
       ]
     },
