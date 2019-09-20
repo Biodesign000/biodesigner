@@ -36,7 +36,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.8",
     "siteFonts": [],
-    "uniqCompNum": 24,
+    "uniqCompNum": 8,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/download-128x90.png",
@@ -4299,11 +4299,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                Dentro de la detección de arritmias <b>la interpretación de del electrocardiograma (EGC)</b> tiene un\n&nbsp;<span style=\"font-size: 1rem;\">papel primordial, aproximadamente en el mundo se toman 300 millones de ECG. Los datos&nbsp;</span><span style=\"font-size: 1rem;\">digitales y los algoritmos necesarios para el entendimiento del EGC están altamente&nbsp;</span><span style=\"font-size: 1rem;\">disponibles es por ello que se busca su mejoramiento por un ordenador, puesto que <b>su\n&nbsp;</b></span><span style=\"font-size: 1rem;\"><b>interpretación se ha vuelto más importante en el flujo clínico</b>.&nbsp;</span><span style=\"font-size: 1rem;\">Es por eso que se investiga y propone crear un sistema que trabaje <b>una red neuronal.</b></span><span style=\"font-size: 1rem;\">&nbsp;</span><span style=\"font-size: 1rem;\">En una investigación, se propuso detectar 12 clases de ritmo cardiaco ECG de una derivación sin procesar&nbsp;</span><span style=\"font-size: 1rem;\">utilizando un conjunto de datos que consiste en 91,232 registros de ECG.</span><span style=\"font-size: 1rem;\">&nbsp;El enfoque estándar para interpretación ECG automatizado emplea diversas&nbsp;</span><span style=\"font-size: 1rem;\">técnicas a través de una serie de pasos que incluyen tratamiento de señales, extracción de&nbsp;</span><span style=\"font-size: 1rem;\">características, la función de selección, reducción y clasificación[1].&nbsp;</span><span style=\"font-size: 1rem;\">Las señales obtenidas de un paciente, es decir, bioseñales se utilizan para analizar la salud de&nbsp;</span><span style=\"font-size: 1rem;\">paciente. Una de las bioseñales de suma importancia es el electrocardiograma (ECG),&nbsp;</span><span style=\"font-size: 1rem;\">representa el funcionamiento del corazón, si existe alguna señal fuera de lo normal nos&nbsp;</span><span style=\"font-size: 1rem;\">indicaría que hay un mal funcionamiento en el corazón denominado condición de arritmia. En&nbsp;</span><span style=\"font-size: 1rem;\">este proceso se trabaja con la monitorización a largo plazo basado en el diagnóstico asistido\n&nbsp;</span><span style=\"font-size: 1rem;\">por computadora (CADiag), existen diversas técnicas de CADiag para el diagnóstico de arritmia&nbsp;</span><span style=\"font-size: 1rem;\">con sus propios beneficios y limitaciones. Debido a los grandes retos que existen para&nbsp;</span><span style=\"font-size: 1rem;\">diagnosticar arritmias de manera oportuna se hace énfasis a desarrollar un sistema de CADiag&nbsp;</span><span style=\"font-size: 1rem;\">y su mejoramiento [2].</span></p><p><span style=\"font-size: 1rem;\">En otras investigaciones, se propuso un enfoque de aprendizaje automático basado en redes neuronales recurrentes (RNNs: recurrent neural networks) para diferenciar entre varios tipos de ritmos cardíacos con solo una derivación y registros cortos de ECG.\n&nbsp;</span><span style=\"font-size: 1rem;\">Utilizaron un conjunto de datos anotados de 12,186 grabaciones de ECG de una sola derivación para construir un conjunto diverso de redes neuronales constantes que puede distinguir entre ritmos sinusales normales, fibrilación auricular, otros tipos de arritmia y otras señales que son demasiado ruidosas para interpretar [3].&nbsp;</span><span style=\"font-size: 1rem;\">Uno de los métodos novedosos es la máquina de Boltzmann restringida (RBM:Restricted Boltzmann Machine ) y las redes de creencias profundas o Inteligencia Artificial (DBN:deep belief networks) para la detección de latidos ventriculares y supraventriculares utilizando ECG de una sola derivación [4].</span></p><p><span style=\"font-size: 1rem;\">Por otro lado, es importante tener en cuenta que la base de datos MIT-BIH Arrythmia Database fue el primer conjunto de material de exámenes para la evaluación de arritmias, estandarizados y de acceso general. Continúa siendo empleada hasta la fecha junto a la American Heart Asociation Database. Ha servido para promover el desarrollo de analizadores de arritmia, al ofrecer tener muestras de verificación que permitan la medición objetiva sus desempeños. Hasta entonces los desarrolladores tenían que incurrir en gastos para realizar sus propias bases de datos, que podían asimismo contener sesgos y errores, así como estar basados en muestras pequeñas [5].</span></p><p><span style=\"font-size: 1rem;\">[1] Cardiologist-level arrhythmia detection and classification in ambulatory electrocardiograms\n&nbsp;</span><span style=\"font-size: 1rem;\">using a deep neural network [Internet]. 2019 [cited 18 September 2019]. Available from: https://www.nature.com/articles/s41591-018-0268-3</span><span style=\"font-size: 1rem;\">&nbsp;</span></p><p><span style=\"font-size: 1rem;\">[2] Computer-Aided Arrhythmia Diagnosis with Bio-signal Processing: A Survey of Trends and\n&nbsp;</span><span style=\"font-size: 1rem;\">Techniques [Internet]. 2019 [cited 18 September 2019]. Available from: https://dl.acm.org/citation.cfm?id=3297711</span></p><p><span style=\"font-size: 1rem;\">[3] Schwab P, C Scebba G, Zhang J, Delai M, Karlen W. Beat by beat: Classifying cardiac arrhythmias with recurrent neural networks - IEEE Conference Publication [Internet]. Ieeexplore.ieee.org. 2019 [cited 19 September 2019]. Available from: https://ieeexplore.ieee.org/abstract/document/8331750/keywords#keywords\n</span></p><p><span style=\"font-size: 1rem;\">[4] Mathews, S. M., Kambhamettu, C., &amp; Barner, K. E. (2018). A novel application of deep learning for single-lead ECG classification. Computers in biology and medicine, 99, 53-62. Available from: https://www.sciencedirect.com/science/article/pii/S0010482518301264</span></p><p><span style=\"font-size: 1rem;\">[5] Moody, G. B., &amp; Mark, R. G. (2001). The impact of the MIT-BIH arrhythmia database. IEEE Engineering in Medicine and Biology Magazine, 20(3), 45-50.</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rCBrBxnGPX",
+          "_anchor": "content1-c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-c"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4626,6 +4626,7 @@
           "_name": "gallery4",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rCBD6v8nz8",
+          "_anchor": "gallery4-f",
           "_protectedParams": [
             "gallery"
           ],
@@ -4712,8 +4713,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery4-f"
+          }
         },
         {
           "alias": false,
@@ -4839,6 +4839,7 @@
           "_name": "gallery4",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"3\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"3\" mbr-gallery-third-count=\"3\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rCBMpMc0Gj",
+          "_anchor": "gallery4-i",
           "_protectedParams": [
             "gallery"
           ],
@@ -4951,8 +4952,7 @@
                 "active": false
               }
             ]
-          },
-          "_anchor": "gallery4-i"
+          }
         },
         {
           "alias": false,
@@ -5484,11 +5484,11 @@
           "_name": "header1",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Propuestas de solución</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">HITO 1</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rCBQpW3jq7",
+          "_anchor": "header1-j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-j"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5527,11 +5527,11 @@
           "_name": "image2",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/img-371-2170x903.png\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rCBS4gj5e3",
+          "_anchor": "image2-l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-l"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5561,11 +5561,11 @@
           "_name": "content9",
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#f7ed4a\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".section-text\" mbr-text><b>PROPUESTAS DE SOLUCIÓN</b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rCBSgmUsTS",
+          "_anchor": "content9-n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-n"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5649,6 +5649,7 @@
           "_name": "gallery4",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"1\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rCBSfpWxSk",
+          "_anchor": "gallery4-m",
           "_protectedParams": [
             "gallery"
           ],
@@ -5661,8 +5662,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/background1.jpg",
-                "thumb": "@THEME_PATH@/components/_images/background1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-375-2000x1262.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-375-2000x1262-800x505.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -5687,8 +5688,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/background3.jpg",
-                "thumb": "@THEME_PATH@/components/_images/background3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-375-2000x1262.png",
+                "thumb": "@PROJECT_PATH@/assets/images/img-375-2000x1262-800x505.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -5761,8 +5762,7 @@
                 "active": false
               }
             ]
-          },
-          "_anchor": "gallery4-m"
+          }
         }
       ]
     },
