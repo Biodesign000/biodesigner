@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Biodesign11",
-    "currentPage": "page6.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5656,8 +5656,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-375-2000x1262.png",
-                "thumb": "@PROJECT_PATH@/assets/images/img-375-2000x1262-800x505.png",
+                "image": "@PROJECT_PATH@/assets/images/file-1-1331x1270.png",
+                "thumb": "@PROJECT_PATH@/assets/images/file-1-1331x1270-800x763.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -5669,8 +5669,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@THEME_PATH@/components/_images/background2.jpg",
-                "thumb": "@THEME_PATH@/components/_images/background2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-60e06f5518dd-1-1930x1423.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-60e06f5518dd-1-1930x1423-800x590.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
