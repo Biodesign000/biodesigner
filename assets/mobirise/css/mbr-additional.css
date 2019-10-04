@@ -6396,6 +6396,28 @@ body {
     -webkit-flex-basis: initial !important;
   }
 }
+.cid-rDXjjXXAcH {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rDXjjXXAcH .image-block {
+  margin: auto;
+}
+.cid-rDXjjXXAcH figcaption {
+  position: relative;
+}
+.cid-rDXjjXXAcH figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rDXjjXXAcH .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rDXgOyALLH {
   padding-top: 0px;
   padding-bottom: 0px;
