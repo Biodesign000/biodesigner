@@ -6949,6 +6949,29 @@ body {
 .cid-rEBpotF7Mi .mbr-section-subtitle {
   color: #767676;
 }
+.cid-rEBChUGMRI {
+  background: #ffffff;
+}
+.cid-rEBChUGMRI .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-rEBChUGMRI .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rEBChUGMRI figcaption {
+  position: relative;
+}
+.cid-rEBChUGMRI figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rEBChUGMRI .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rEBqcVEPdb {
   background: #ffffff;
   background: linear-gradient(0deg, #ffffff, #ffffff);
