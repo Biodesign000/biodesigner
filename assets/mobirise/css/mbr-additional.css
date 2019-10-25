@@ -7505,6 +7505,30 @@ body {
 .cid-rCQlViXdKX .media-container-row .mbr-text {
   color: #e0d633;
 }
+.cid-rFVSxxuxxs {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rFVSxxuxxs .image-block {
+  margin: auto;
+}
+.cid-rFVSxxuxxs .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rFVSxxuxxs figcaption {
+  position: relative;
+}
+.cid-rFVSxxuxxs figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rFVSxxuxxs .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rBl0su5Z9w .navbar {
   padding: .5rem 0;
   background: #333333;
